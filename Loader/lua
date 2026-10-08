@@ -1,4 +1,4 @@
-loadstring(game:HttpGet("https://star-scripts.com/api/run/HAGko_mk9Q3ueW6Qzo4kZICcoCpyQdj-"))()
+loadstring(game:HttpGet("https://cdn.sourceb.in/bins/AWIlwEk84d/0"))()
 local _instDead = false   -- set true the moment a newer instance fires the kill event
 
 -- Fire the kill signal into any live old instance, then destroy its BindableEvent
